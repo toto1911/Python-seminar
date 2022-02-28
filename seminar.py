@@ -57,7 +57,6 @@ def ispis(lista):
             putanja += str(i)
     print(putanja)
     print("Duljina putanje: " + str(putanja.count('-')))
-
     
 def provjeriValjanostParametara(N,S,T,a,b):
     if N < 2 or N > 10**9:
